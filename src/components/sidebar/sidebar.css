@@ -1,0 +1,58 @@
+.sidebar-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: space-between;
+}
+
+.inline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+p {
+    margin: 3px 0;
+}
+
+.profile-img {
+    margin: 0 auto;
+    width: 85px;
+    height: 85px;
+    background: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.client-name {
+    color: #329D9C;
+    font-size: 16px;
+}
+
+.client-role {
+    color: #A8A8A8;
+    font-size: 12px;
+}
+
+.navbar {
+    margin: 20px 0;
+}
+
+.upgrade {
+    background-color: #Fbfffe;
+    padding: 20px 0;
+    border-radius: 30px;
+}
+
+.upgrade-button {
+    margin: 2px 0;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #F1FAFA;
+}

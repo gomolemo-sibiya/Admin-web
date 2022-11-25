@@ -1,0 +1,51 @@
+.dash-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #E9F3F4;
+    overflow: clip; 
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+}
+
+.center {
+    flex-grow: 1;
+}
+    
+  /* --------- Non-flexbox related styles --------- */
+.child {
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffe8c3;
+}
+
+.center {
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #f9fdfe;
+    border-radius: 30px;
+    /* -ms-overflow-style: none;
+    scrollbar-width: none; 
+    overflow-y: auto; */
+}
+  
+/* .center::-webkit-scrollbar {
+    display: none;
+} 
+*/
+.sidebar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.header {
+    padding: 10px 20px;
+}
+
